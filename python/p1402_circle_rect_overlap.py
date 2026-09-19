@@ -10,7 +10,7 @@ class Solution:
         xCenter, yCenter = 0, 0
 
         # Check if 4 corners inside circle
-        if any([math.dist([x, y], [xCenter, yCenter]) <= radius for x, y in zip([x1, x2, x1, x2], [y1, y2, y2, y1])]):
+        if any([math.dist([x, y], [xCenter, yCenter]) <= radius for x in [x1, x2] for y in [y1, y2]]):
             return True
         
         # Check if any edge touch
