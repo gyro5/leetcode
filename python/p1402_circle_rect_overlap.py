@@ -1,5 +1,6 @@
 import math
 
+
 class Solution:
     def checkOverlap(self, radius: int, xCenter: int, yCenter: int, x1: int, y1: int, x2: int, y2: int) -> bool:
         # Translate all points so that circle center is at origin
@@ -10,7 +11,7 @@ class Solution:
         xCenter, yCenter = 0, 0
 
         # Check if 4 corners inside circle
-        if any([math.dist([x, y], [xCenter, yCenter]) <= radius for x in [x1, x2] for y in [y1, y2]]):
+        if any(math.dist([x, y], [xCenter, yCenter]) <= radius for x in [x1, x2] for y in [y1, y2]):
             return True
         
         # Check if any edge touch
@@ -21,7 +22,7 @@ class Solution:
             return True
 
         # Check if circle center within square
-        if x1 < 0 and x2 > 0 and y1 < 0 and y2 > 0:
+        if x1 < 0 and x2 > 0 and y1 < 0 and y2 > 0:  # noqa: SIM103
             return True
 
         return False
