@@ -6,6 +6,7 @@ mod p1520_max_non_overlapping_substr;
 mod p1751_k_interval_scheduling;
 mod p3498_reverse_degree_str;
 mod p3524_subarray_remainder;
+mod p3525_segment_tree;
 mod p3_sliding_window_basic;
 
 mod nlogn_interval_intersection_count;
