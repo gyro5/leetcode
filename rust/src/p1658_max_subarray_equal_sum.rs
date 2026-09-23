@@ -1,7 +1,6 @@
 pub struct Solution;
 
 // https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero
-#[allow(unused)]
 impl Solution {
     pub fn min_operations(nums: Vec<i32>, x: i32) -> i32 {
         // This problem is equivalent to finding the max-length subarray of nums that

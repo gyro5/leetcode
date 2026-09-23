@@ -1,7 +1,6 @@
 #[derive(Debug)]
 pub struct Solution;
 
-#[allow(unused)]
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         let chars: Vec<u8> = s.as_bytes().into();

@@ -1,11 +1,9 @@
 #[derive(Debug)]
 pub struct Solution;
 
-#[allow(unused)]
 use std::cmp;
 
 // https://leetcode.com/problems/find-x-value-of-array-i/
-#[allow(unused)]
 impl Solution {
     pub fn result_array(nums: Vec<i32>, k: i32) -> Vec<i64> {
         let k = k as usize;

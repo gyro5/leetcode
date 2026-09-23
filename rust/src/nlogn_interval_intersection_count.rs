@@ -2,7 +2,6 @@ struct Solution;
 
 use std::{cmp::Reverse, collections::BinaryHeap};
 
-#[allow(unused)]
 impl Solution {
     pub fn count_intersecting_intervals(mut intervals: Vec<Vec<i32>>) -> i64 {
         let mut count: i64 = 0;

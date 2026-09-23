@@ -1,7 +1,6 @@
 #[derive(Debug)]
 pub struct Solution;
 
-#[allow(unused)]
 impl Solution {
     pub fn max_num_of_substrings(st: String) -> Vec<String> {
         let chars: Vec<char> = st.chars().collect();

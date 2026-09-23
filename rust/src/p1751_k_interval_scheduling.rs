@@ -3,7 +3,6 @@ pub struct Solution;
 
 use std::cmp;
 
-#[allow(unused)]
 impl Solution {
     pub fn max_value(mut events: Vec<Vec<i32>>, k: i32) -> i32 {
         let n = events.len();

@@ -1,4 +1,4 @@
-// mod temp;
+#![allow(unused)]
 
 // One mod for each problem
 mod p1235_max_weighted_interval_scheduling;
@@ -15,6 +15,6 @@ mod nlogn_interval_intersection_count;
 fn main() {
     println!(
         "{:?}",
-        p1658_max_subarray_equal_sum::Solution::min_operations(vec![3,2,20,1,1,3], 10)
+        p1658_max_subarray_equal_sum::Solution::min_operations(vec![3, 2, 20, 1, 1, 3], 10)
     );
 }

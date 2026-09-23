@@ -1,7 +1,6 @@
 pub struct Solution;
 
 // https://leetcode.com/problems/find-x-value-of-array-ii/
-#[allow(unused)]
 impl Solution {
     pub fn result_array(mut nums: Vec<i32>, k: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
         // Preprocess to prevent the big values overflowing (bc we only care about modulo)
