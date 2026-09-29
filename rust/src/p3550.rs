@@ -1,5 +1,7 @@
 pub struct Solution;
 
+// This is an easy problem but it demonstrates how iterator chaining
+// in Rust can solve problems.
 impl Solution {
     pub fn smallest_index(nums: Vec<i32>) -> i32 {
         nums.into_iter()
