@@ -3,6 +3,7 @@
 // One mod for each problem
 mod nlogn_interval_intersection_count;
 mod p1096_brace_grammer_expansion;
+mod p1111_max_paren_split_depth;
 mod p1190_wormhole;
 mod p1235_max_weighted_interval_scheduling;
 mod p1520_max_non_overlapping_substr;

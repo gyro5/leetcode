@@ -1,5 +1,6 @@
 pub struct Solution;
 
+//https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path
 impl Solution {
     pub fn has_valid_path(grid: Vec<Vec<char>>) -> bool {
         let m = grid.len();
@@ -18,6 +19,8 @@ impl Solution {
 
         let mut dp: Vec<Vec<Vec<Option<bool>>>> = vec![vec![vec![None; n + m]; n]; m];
 
+        // NOTE: The DFS is mainly just to enumerate all possible routes
+        // in the grid, DP is the main thing here.
         Solution::dfs(&grid, &mut dp, 0, 0, 0, m, n)
     }
 
