@@ -1,6 +1,7 @@
 #[derive(Debug)]
 pub struct Solution;
 
+// https://leetcode.com/problems/longest-substring-without-repeating-characters
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         let chars: Vec<u8> = s.as_bytes().into();

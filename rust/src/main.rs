@@ -11,6 +11,8 @@ mod p1658_max_subarray_equal_sum;
 mod p1751_k_interval_scheduling;
 mod p1807_string_replacement;
 mod p2267_grid_dfs;
+mod p22_generate_parenthesis;
+mod p32_longest_parentheses_substr;
 mod p3498_reverse_degree_str;
 mod p3524_subarray_remainder;
 mod p3525_segment_tree;
