@@ -18,6 +18,7 @@ mod p3524_subarray_remainder;
 mod p3525_segment_tree;
 mod p3550;
 mod p3_sliding_window_basic;
+mod p678_valid_parenthesis_with_wildcard;
 mod p67_add_binary_str;
 
 mod temp;
@@ -25,6 +26,6 @@ mod temp;
 fn main() {
     println!(
         "{:?}",
-        temp::Solution::add_binary("11".to_owned(), "1".to_owned())
+        p678_valid_parenthesis_with_wildcard::Solution::check_valid_string_2("()".to_owned())
     );
 }
