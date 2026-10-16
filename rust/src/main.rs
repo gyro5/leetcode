@@ -15,6 +15,8 @@ mod p1807_string_replacement;
 mod p2267_grid_dfs;
 mod p22_generate_parenthesis;
 mod p2333_min_sum_sq_diff;
+mod p2913_distice_ele_sum;
+mod p2916_fenwick_tree;
 mod p32_longest_parentheses_substr;
 mod p3498_reverse_degree_str;
 mod p3524_subarray_remainder;
@@ -30,13 +32,5 @@ mod p856_parenthesis_score;
 mod temp;
 
 fn main() {
-    println!(
-        "{:?}",
-        p2333_min_sum_sq_diff::Solution::min_sum_square_diff(
-            vec![1, 4, 10, 12],
-            vec![5, 8, 6, 9],
-            1,
-            1
-        )
-    );
+    println!("{:?}", p2916_fenwick_tree::Solution::sum_counts(vec![1,2,1]));
 }
